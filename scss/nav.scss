@@ -1,0 +1,45 @@
+.navbar {
+    //height:50px;
+    background-color:#000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    &--white {
+        background: white;
+        color:red;
+    }
+    &-brand {
+        width: 100px;
+        height: 40px;
+        background: white;
+    }
+    &-menu {
+        margin:0;
+        padding:0;
+        list-style:none;
+        display:flex;
+        >li {
+            > a {
+                padding: 10px;
+                display:block;
+            }
+        }
+        &--lg {
+            >li {
+                >a {
+                    padding: 20px;
+                }
+            }
+        }
+
+    }
+}
+
+a {
+    text-decoration:none;
+    color:#fff;
+    margin:auto;
+    &.red {
+        color: red;
+    }
+}

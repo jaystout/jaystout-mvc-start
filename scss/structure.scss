@@ -1,0 +1,27 @@
+*{
+    margin: 0; //not 0 auto, that's to center
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+//resets gets rids of all borders.
+
+html, body{
+    height: 100%;
+    font-family:"arial",sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+margin-bottom:16px;
+}
+
+.loader{
+    position:fixed;
+    top:0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background-color:rgba(0,0,0,.5);
+    display:none;
+}
+//basic reset
